@@ -1,0 +1,427 @@
+html{
+  overflow: auto; /* позволяет прокручивать содержимое */
+  -ms-overflow-style: none;  /* скрыть скроллбар для IE и Edge */
+  scrollbar-width: none;  /* скрыть скроллбар для Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none;  
+}
+
+body {
+  /* box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 100%; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto; /* позволяет прокручивать содержимое */
+  -ms-overflow-style: none;  /* скрыть скроллбар для IE и Edge */
+  scrollbar-width: none;  /* скрыть скроллбар для Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.active {
+  color: gray;
+}
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 90vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  
+ 
+}
+
+main::-webkit-scrollbar {
+  display: none;  /* скрыть скроллбар для Chrome, Safari и др. Webkit-браузеров */
+
+}
+
+
+
+nav {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav a:hover{
+  color: gray;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+
+.swiper {
+  height: 90vh;
+  width: 100vw;
+}
+
+.swiper-slide {
+  border: 2px solid black;
+  color: transparent;
+}
+
+.swiper-slide {
+  border: 2px solid black;
+  color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: rgb(78, 7, 7) 0 0 5px ;
+}
+
+.swiper-slide a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 10;
+  transition: 0.5s;
+
+}
+
+/* .swiper-wrapper img {
+  max-width: 100%;
+  height: 100%;
+} */
+
+.beef {
+  background-image: url(./img/beef.jpg);
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+
+.breakfast{
+  background-image: url(./img/breakfast.jpg);
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+.desert{
+  background-image: url(./img/desert.jpg);
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+.pasta{
+  background-image: url(./img/pasta.jpg);
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+.chicken{
+  background-image: url(./img/chiken.jpg);
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+.vegan{
+  background-image: url(./img/vagan\ food.jpg);
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+
+.beef::after, .breakfast::after, .desert::after, .pasta::after, .chicken::after ,.vegan::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.beef:hover::after, .breakfast:hover::after, .desert:hover::after, .pasta:hover::after, .chicken:hover::after ,.vegan:hover::after {
+  opacity: 0;
+  transition: 0.5s;
+  color: white;
+}
+
+.swiper-slide a:hover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  opacity: 1;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.container{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.elem{
+  padding: 0 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  font-size: 1.2rem;
+  text-align: center;
+  color: transparent
+}
+
+.container a{
+  text-decoration: none;
+}
+
+.elem::after{
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.elem:hover::after{
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.elem:hover {
+  color: white;
+  transition: 0.5s;
+  text-shadow: black 2px 2px 5px;
+}
+
+.dish{
+  color: white;
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 100px;
+  gap: 20px;
+}
+
+.dish__info{ 
+  display: grid;
+  grid-template-rows: 20% 10% 70%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.dish__img{ 
+  grid-row: 1;
+  grid-column: 1;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;  
+}
+
+.dish__discription{ 
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  grid-row: 2;
+  grid-column: 1/3;
+  color: white;
+  text-align: center;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  margin: 5px;
+  border-bottom: 1px solid white;
+}
+
+.dish__info__ingredients{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.backBtn {
+  height: 50px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.forBtn {
+  grid-row: 3;
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backBtn:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+
+
+
+.seachPage{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seachInput{
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#seachBar{
+  width: 100%;
+  justify-content:center;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.searchContainer {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.searchContainer a {
+  text-decoration: none;
+  color: white;
+}
+
+.seacrhInput{
+  height: 20%;
+  width: 100%;
+}
+
+input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white ;
+  width: 50%;
+  padding-bottom:10px ;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.seachBtn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  width: 100px;
+  height: 40px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.seachBtn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+.contactsContainer {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: white;
+  scale: 1.5;
+}
+
+
+
+
