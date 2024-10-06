@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.4f0723e7.css",
+    "main.js": "/react-app/static/js/main.859ebda8.js",
+    "static/media/beef.jpg": "/react-app/static/media/beef.861d76c3246a51166606.jpg",
+    "static/media/chiken.jpg": "/react-app/static/media/chiken.c0ce770fb95e2c0b2b05.jpg",
+    "static/media/vagan food.jpg": "/react-app/static/media/vagan food.889ae85e2715e735720a.jpg",
+    "static/media/breakfast.jpg": "/react-app/static/media/breakfast.607b09a640173ce070bc.jpg",
+    "static/media/pasta.jpg": "/react-app/static/media/pasta.222379cd02de07924c83.jpg",
+    "static/media/desert.jpg": "/react-app/static/media/desert.3ea360bf2501ac12f651.jpg",
+    "index.html": "/react-app/index.html",
+    "main.4f0723e7.css.map": "/react-app/static/css/main.4f0723e7.css.map",
+    "main.859ebda8.js.map": "/react-app/static/js/main.859ebda8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f0723e7.css",
+    "static/js/main.859ebda8.js"
+  ]
+}
