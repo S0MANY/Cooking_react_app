@@ -1,4 +1,5 @@
 Cooking Recipe Finder
+
 Welcome to the Cooking Recipe Finder, a dynamic web application built with React that empowers you to explore a vast array of culinary delights! Utilizing a public API, our platform allows you to search for recipes based on dish names or specific ingredients, making it easier than ever to discover new meals to prepare.
 
 Key Features:
