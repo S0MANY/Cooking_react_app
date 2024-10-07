@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cooking_react_app/static/css/main.24b9aa98.css",
-    "main.js": "/Cooking_react_app/static/js/main.8c958ba4.js",
+    "main.js": "/Cooking_react_app/static/js/main.5fec4c05.js",
     "static/media/beef.jpg": "/Cooking_react_app/static/media/beef.861d76c3246a51166606.jpg",
     "static/media/chiken.jpg": "/Cooking_react_app/static/media/chiken.c0ce770fb95e2c0b2b05.jpg",
     "static/media/vagan food.jpg": "/Cooking_react_app/static/media/vagan food.889ae85e2715e735720a.jpg",
@@ -10,10 +10,10 @@
     "static/media/desert.jpg": "/Cooking_react_app/static/media/desert.3ea360bf2501ac12f651.jpg",
     "index.html": "/Cooking_react_app/index.html",
     "main.24b9aa98.css.map": "/Cooking_react_app/static/css/main.24b9aa98.css.map",
-    "main.8c958ba4.js.map": "/Cooking_react_app/static/js/main.8c958ba4.js.map"
+    "main.5fec4c05.js.map": "/Cooking_react_app/static/js/main.5fec4c05.js.map"
   },
   "entrypoints": [
     "static/css/main.24b9aa98.css",
-    "static/js/main.8c958ba4.js"
+    "static/js/main.5fec4c05.js"
   ]
 }
