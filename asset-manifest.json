@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/fortnite_store_app/static/css/main.32a14ac9.css",
-    "main.js": "/fortnite_store_app/static/js/main.bf7d1c3e.js",
-    "static/media/logo-removebg-preview.png": "/fortnite_store_app/static/media/logo-removebg-preview.6e4408fdf17d79a5058e.png",
-    "static/media/bg-repeat.png": "/fortnite_store_app/static/media/bg-repeat.854604c3d8cf3b4ac61d.png",
-    "index.html": "/fortnite_store_app/index.html",
-    "main.32a14ac9.css.map": "/fortnite_store_app/static/css/main.32a14ac9.css.map",
-    "main.bf7d1c3e.js.map": "/fortnite_store_app/static/js/main.bf7d1c3e.js.map"
+    "main.css": "/Cooking_react_app/static/css/main.24b9aa98.css",
+    "main.js": "/Cooking_react_app/static/js/main.5fec4c05.js",
+    "static/media/beef.jpg": "/Cooking_react_app/static/media/beef.861d76c3246a51166606.jpg",
+    "static/media/chiken.jpg": "/Cooking_react_app/static/media/chiken.c0ce770fb95e2c0b2b05.jpg",
+    "static/media/vagan food.jpg": "/Cooking_react_app/static/media/vagan food.889ae85e2715e735720a.jpg",
+    "static/media/breakfast.jpg": "/Cooking_react_app/static/media/breakfast.607b09a640173ce070bc.jpg",
+    "static/media/pasta.jpg": "/Cooking_react_app/static/media/pasta.222379cd02de07924c83.jpg",
+    "static/media/desert.jpg": "/Cooking_react_app/static/media/desert.3ea360bf2501ac12f651.jpg",
+    "index.html": "/Cooking_react_app/index.html",
+    "main.24b9aa98.css.map": "/Cooking_react_app/static/css/main.24b9aa98.css.map",
+    "main.5fec4c05.js.map": "/Cooking_react_app/static/js/main.5fec4c05.js.map"
   },
   "entrypoints": [
-    "static/css/main.32a14ac9.css",
-    "static/js/main.bf7d1c3e.js"
+    "static/css/main.24b9aa98.css",
+    "static/js/main.5fec4c05.js"
   ]
 }
